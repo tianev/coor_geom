@@ -1,0 +1,57 @@
+* {
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the top navigation bar */
+ul.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Style the topnav links */
+ul.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+ul.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+
+/* Style the content */
+div.content {
+  background-color: #ddd;
+  padding: 10px;
+  height: 100%;
+}
+
+
+.form-contact label {
+    display: inline-block;
+    min-width: 80%
+}
+.form-contact p {margin: 10px 0 10px 0;}
+
+/* Style the footer */
+.footer {
+  background-color: #f1f1f1;
+  padding: 10px;
+  position: absolute;
+    left: 0;
+    bottom: 0;
+	width: 100%;
+	height: 80px;
+}

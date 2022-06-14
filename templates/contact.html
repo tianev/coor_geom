@@ -2,9 +2,6 @@
 
 {% block content %}
 <div class="container mt-5 pt-5">
-    {% for msg in get_flashed_messages() %}
-        <div class="flash">{{ msg }}</div>
-    {% endfor %}
     <form action="/contact" method="post" class="rounded shadow bg-light form-contact d-flex justify-content-between align-items-center py-5 px-5">
         <div>
             <label>Name: <input class="border-0 shadow-sm" type="text" name="username" value="" required/></label>

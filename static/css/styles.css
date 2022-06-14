@@ -1,7 +1,7 @@
-* {
+/** {
   box-sizing: border-box;
   font-family: Arial, Helvetica, sans-serif;
-}
+}*/
 
 body {
   margin: 0;
@@ -15,13 +15,12 @@ ul.topnav {
 }
 
 /* Style the topnav links */
-ul.topnav a {
-  float: left;
-  display: block;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
+.fixed-top {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: $zindex-fixed;
 }
 
 /* Change color on hover */
@@ -32,11 +31,11 @@ ul.topnav a:hover {
 
 
 /* Style the content */
-div.content {
+/*div.content {
   background-color: #ddd;
   padding: 10px;
   height: 100%;
-}
+}*/
 
 
 .form-contact label {
@@ -46,7 +45,7 @@ div.content {
 .form-contact p {margin: 10px 0 10px 0;}
 
 /* Style the footer */
-.footer {
+/*.footer {
   background-color: #f1f1f1;
   padding: 10px;
   position: absolute;
@@ -54,4 +53,17 @@ div.content {
     bottom: 0;
 	width: 100%;
 	height: 80px;
+}*/
+
+.content {
+  margin-top: 10vh;
+}
+
+
+.divider {
+  height: 3rem;
+    background-color: rgba(0, 0, 0, .1);
+    border: solid rgba(0, 0, 0, .15);
+    border-width: 1px 0;
+    box-shadow: inset 0 0.5em 1.5em rgb(0 0 0 / 10%), inset 0 0.125em 0.5em rgb(0 0 0 / 15%);
 }
